@@ -871,6 +871,25 @@ input[type='radio']{
       display: none;
 
     }
+
+    .campo_radio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .campo_radio2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .campo_radio3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
     .banner_logo{
         font-size: 20px;
     }
