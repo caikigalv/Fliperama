@@ -849,186 +849,218 @@ input[type='radio']{
 
 
 
-@media (max-width:450px){
-    *{
+@media (max-width:450px) {
+    * {
         overflow-x: hidden;
-        overflow-y: hidden;
+
     }
 
 
-    .fliperama_buy{
+    .fliperama_buy {
         height: 723px;
         display: block;
-       
-        
+
+
     }
-    .fliperama_area{
+
+    .fliperama_area {
         display: block;
-        height:725px;
-        
-    }
-    .flip_area{
-      display: none;
+        height: 725px;
 
     }
 
-    .campo_radio{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .campo_radio2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .campo_radio3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .flip_area {
+        display: none;
+
     }
 
-
-    
-    .banner_logo{
+    .banner_logo {
         font-size: 20px;
     }
-    .pagamento3{
+
+    .pagamento3 {
         width: 370px;
         height: 845px;
     }
 
-    .pagamento.hidden{
-       
+    .campo_radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campo_radio2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campo_radio3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pagamento.hidden {
         display: flex;
         height: 800px;
         width: 100vw;
         border-radius: none;
     }
 
-    .pagamento_title{
-        margin-top: -100px;
+    .pagamento_title {
+        margin-top: -200px;
     }
 
-    .options{
-        width:100%;
+    .options {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .cartoes_options{
+    .cartoes_options {
         width: 250px;
     }
-    .mastercard{
+
+    .mastercard {
         width: 40px;
         height: 40px;
     }
 
-    .visa{
-        width: 40px;
-        height: 40px;
-    }
-    .hipercard{
-        width: 40px;
-        height: 40px;
-    }
-    .elo{
-        width: 40px;
-        height: 40px;
-    }
-    .icon_ponto{
+    .visa {
         width: 40px;
         height: 40px;
     }
 
-    .boleto{
+    .hipercard {
+        width: 40px;
+        height: 40px;
+    }
+
+    .elo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon_ponto {
+        width: 40px;
+        height: 40px;
+    }
+
+    .boleto {
         width: 330px;
     }
-    .pix{
+
+    .pix {
         width: 330px;
     }
 
-    .end_shopping{
+    .end_shopping {
         width: 230px;
     }
 
-    .security{
+    .security {
         width: 200px;
     }
 
 
 
-    .banner_logo{
+    .banner_logo {
         font-size: 20px;
     }
 
-    .pagamento{
-        height: 600px;     
-    }
-    .pagamento2{
-        width: 360px;
-        height: 845px;
+    .pagamento {
+        height: 600px;
     }
 
-    .pagamento3{
+    .pagamento2 {
+        overflow-x: visible;
+        overflow-y: visible;
+        display: flex;
+        height: 800px;
+        width: 100%;
+    }
+
+    .pagamento3 {
         width: 320px;
         height: 845px;
     }
 
-    .complement{
+    .complement {
         margin-top: 10px;
     }
-    .verso_card{
+
+    .verso_card {
         display: none;
     }
 
-    .end_shopping2{
+    .end_shopping2 {
         width: 240px;
         height: 60px;
     }
 
-    .area_dados{
+    .area_dados {
         display: flex;
         flex-direction: column;
     }
-    
-    .area_code{
+
+    .area_code {
         display: block;
     }
-   
-    .pagamentos_options2{
+
+    .pagamentos_options2 {
         width: 320px;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
     }
-    .pagamento_layout2{
+
+    .pagamento_layout2 {
         display: flex;
         justify-content: center;
-        margin-top: 80px;
+        height: 100%;
+        
+
     }
 
-    .pagamento_layout{
+    .pagamento_layout {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .security2{
+    .security2 {
         height: 40px;
     }
-    .options{
-        width:100%;
+
+    .options {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-  
-    
-    
+
+    .form_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10%;
+        margin-top: 30%;
+        height: 800px;
+        position: absolute;
+    }
+
+    .pagamento_title h3 {
+        font-size: 15px;
+    }
+
+    .pagamento_title ion-icon {
+        font-size: 20px;
+    }
+
 }
