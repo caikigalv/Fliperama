@@ -856,6 +856,10 @@ input[type='radio']{
 
     }
 
+    .section_img{
+        overflow-y:hidden;
+    }
+
     .line2{
         margin-bottom: 0;
     }
