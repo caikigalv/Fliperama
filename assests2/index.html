@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FliperamaBuy</title>
+    <link rel="stylesheet" href="/assests2/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="banner_logo_menu">
+                <h1 class="banner_logo"><a href="">fliperama</a></h1>
+                <nav class="banner_nav">
+                    <ul class="banner_ul">
+                        <!--<li><a href="">contato</a></li>-->
+                        <li><button><a href="/assests/index.html">Voltar Para Inicio <ion-icon
+                                        name="arrow-redo-outline"></ion-icon></a></button></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="carousel-area">
+            <div data-fliper-text class="container_section">
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="fliperama_buy">
+        <div class="fliperama_area">
+
+
+            <h5 class="flip_area hidden">Área de Pagamento</h5>
+
+
+            <div class="pagamento hidden">
+
+                <legend>
+
+                </legend>
+                <div class="pagamento_title">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <h3>Pagamento</h3>
+                </div>
+
+                <div class="line"></div>
+                <div class="pagamento_layout">
+
+                    <div class="pagamentos_options">
+                        <ul class="options">
+                            <li class="cartoes">
+                                <div class="campo_radio"><input class="radio_options" type="radio" name="option"
+                                        id="radio1"></div>
+
+                                <label for="radio1" class="cartoes_options">
+                                    <img class="mastercard"
+                                        src="https://cdn6.aptoide.com/imgs/e/1/8/e18e691e8e0d4cc61d00dcff896b62ac_icon.png"
+                                        alt="mastercard" title="mastercard">
+
+
+                                    <img class="visa"
+                                        src="https://logowik.com/content/uploads/images/visa-new-20215093.jpg"
+                                        alt="visa" title="visa">
+
+                                    <img class="hipercard"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg"
+                                        alt="hipercard" title="hipercard">
+
+                                    <img class="elo" src="https://logopng.com.br/logos/elo-30.png" alt="elo"
+                                        title="elo">
+
+                                    <div class="icon_ponto">
+                                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                    </div>
+                                </label>
+
+                            </li>
+                            <li class="pix">
+                                <div class="campo_radio2"><input id="radio2" class="radio_options2" type="radio"
+                                        name="option"></div>
+                                <label for="radio2" class="cartoes_options2">
+                                    <img class="pix_modo"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg"
+                                        alt="pix" title="pix">
+                                    <div>
+                                        <p>Desconto de 3%</p>
+                                    </div>
+                                </label>
+                            </li>
+                            <label class="boleto">
+                                <div class="campo_radio3"><input id="radio3" class="radio_options" type="radio"
+                                        name="option"></div>
+                                <label for="radio3" class="cartoes_options3">
+                                    <img class="modo_boleto"
+                                        src="https://www.fecomercio-ce.com.br/wp-content/uploads/2017/07/boletobancario-e1500323740516.jpg"
+                                        alt="boleto" title="boleto">
+                                </label>
+                            </label>
+                        </ul>
+                    </div>
+
+
+                    <div class="button_area">
+                        <button class="end_shopping"><ion-icon name="checkmark-done-outline"></ion-icon>Finalizar
+                            compra</button>
+                    </div>
+
+                    <div class="campo_security">
+                        <img class="security" src="https://cdn.awsli.com.br/1315/1315335/arquivos/site%20protegido.png"
+                            alt="security" title="security">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="pagamento2 hidden">
+                <div class="pagamento_title">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <h3>Pagamento</h3>
+                </div>
+
+                <div class="line"></div>
+                <div class="pagamento_layout2">
+
+                    <div class="pagamentos_options2">
+                        <form class="form_card">
+                            <fieldset class="campo_dados">
+                                <legend>
+                                    <h4>Dados Pessoais</h4>
+                                </legend>
+                                <div class="dados_pessoais">
+                                    <div class="area_dados">
+                                        <input class="dados_name" type="text" placeholder="Nome Completo:" required>
+                                        <input class="dados_email" type="email" placeholder="Email:" required>
+                                        <div>
+                                            <input class="adress" type="text" placeholder="Endereço:" required>
+                                            <input class="adress_number" type="number" placeholder="Número:" required>
+                                            <input class="complement" type="text" placeholder="Complemento:" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="area_card">
+                                <legend>
+                                    <h4>Dados Cartões</h4>
+                                </legend>
+                                <div class="dados_cartoes">
+                                    <div class="card_front">
+                                        <input id="cartao_credito" class="cartao_dado" type="number" name="" placeholder="Numero do cartão"
+                                            required  maxlength="19" autocomplete="off">
+                                        <div class="card_f">
+                                            <img class="frente_card"
+                                                src="https://cdn.icon-icons.com/icons2/2645/PNG/512/credit_card_front_icon_160213.png"
+                                                alt="frente do cartao" title="frente do cartao">
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <input class="name_cartao" type="text" placeholder="Nome impresso no cartão">
+                                    </div>
+                                    <div class="area_code">
+                                        <fieldset class="
+                                        validade_card">
+                                            <legend>
+                                                <h6>Vencimento*</h6>
+                                            </legend>
+                                            <input class="month_card" type="month" name="" id="" required>
+                                        </fieldset>
+                                        <fieldset class="codigo_card">
+
+
+                                            <legend>
+                                                <h6>Código de segurança*</h6>
+                                            </legend>
+                                            <input class="cod_security" type="number" placeholder="Ex:123" required
+                                                minlength="3">
+
+                                        </fieldset>
+                                        <div class="card_vers">
+                                            <img class="verso_card"
+                                                src="https://cdn-icons-png.flaticon.com/512/82/82425.png"
+                                                alt="verso_card" title="verso_card">
+                                        </div>
+
+                                    </div>
+
+                                    <select class="selecao_option" name="ordenaçao">
+                                        <option class="option1" value="">1x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option2" value="">2x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option3" value="">3x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option4" value="">4x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option5" value="">5x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option6" value="">6x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option7" value="">7x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option8" value="">8x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option9" value="">9x de <p date-valor class="valor_buys">...</p>
+                                        </option>
+                                        <option class="option10" value="">10x de <p date-valor class="valor_buys">...
+                                            </p>
+                                        </option>
+                                    </select>
+
+
+                                </div>
+                                
+                            </fieldset>
+                            <div class="valor_total2">
+                                <h4>Valor Total:</h4>
+                                <p>...</p>
+                            </div>
+                            <div class="line2"></div>
+                            <div class="button_area2">
+                                <button class="back_pag2">Alterar forma de pagamento</button>
+                                <button class="end_shopping2"><ion-icon
+                                        name="checkmark-done-outline"></ion-icon>Finalizar
+                                    compra</button>
+                            </div>
+
+                            <div class="campo_security2">
+                                <img class="security2"
+                                    src="https://cdn.awsli.com.br/1315/1315335/arquivos/site%20protegido.png"
+                                    alt="security" title="security">
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="pagamento3 hidden">
+                <div class="pagamento_title">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <h3>Pagamento</h3>
+                </div>
+
+                <div class="line"></div>
+                <div class="pagamento_layout3">
+
+                    <div class="pagamentos_options3">
+
+
+                        <div class=" pix_imagens">
+                            <img class="img_pix" src="/assests2/img/meu pix.png" alt="pix" title="pix">
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="valor_total3">
+                    <h4>Valor Total:</h4>
+                    <p>...</p>
+                </div>
+                <div class="line"></div>
+                <div class="button_area">
+                    <button class="back_pag3">Alterar forma de pagamento</button>
+                    <button class="end_shopping3"><ion-icon name="checkmark-done-outline"></ion-icon>Finalizar
+                        compra</button>
+                </div>
+
+                <div class="campo_security3">
+                    <img class="security3" src="https://cdn.awsli.com.br/1315/1315335/arquivos/site%20protegido.png"
+                        alt="security" title="security">
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div class="carousel-area">
+        <div data-fliper-texts class="container_section">
+
+        </div>
+    </div>
+    <footer class="footer_descricao">
+        <p>Desenvolvido por <strong>Caiki Carlos</strong>&copy;</p>
+    </footer>
+</body>
+<script src="/assests2/js/cartao.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>

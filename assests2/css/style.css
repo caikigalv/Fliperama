@@ -1,0 +1,1091 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.banner {
+    width: 100vw;
+    height: 55px;
+    background: linear-gradient(rgb(104, 4, 185), rgb(15, 146, 140));
+   
+}
+
+.banner_logo_menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 a{
+    text-decoration: none;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.banner_logo_menu h1 {
+    display: inherit;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@keyframes logo {
+    0% {
+        color: rgb(11, 218, 255);
+    }
+
+    25% {
+        color: rgb(253, 0, 241);
+    }
+
+    50% {
+        color: rgb(148, 241, 7);
+    }
+
+    65% {
+        color: rgb(226, 27, 27);
+    }
+
+    75% {
+        color: rgb(243, 239, 10);
+    }
+
+    90% {
+        color: rgb(243, 181, 10);
+    }
+
+    100% {
+        color: rgb(11, 218, 255);
+    }
+}
+
+.banner_nav {
+    color: white;
+    height: 50px;
+}
+
+.banner_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    gap: 30px;
+}
+
+.banner_ul li {
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+li a{
+    text-decoration: none;
+    animation-name: anyli;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes anyli {
+    0% {
+        color: rgb(11, 218, 255);
+    }
+
+    25% {
+        color: rgb(253, 0, 241);
+    }
+
+    50% {
+        color: rgb(148, 241, 7);
+    }
+
+    65% {
+        color: rgb(226, 27, 27);
+    }
+
+    75% {
+        color: rgb(243, 239, 10);
+    }
+
+    90% {
+        color: rgb(243, 181, 10);
+    }
+
+    100% {
+        color: rgb(11, 218, 255);
+    }
+}
+
+
+
+.menu_nav {
+
+    width: 100vw;
+    height: 25px;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+}
+
+
+.menu li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    animation-name: onlyli;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+
+
+}
+
+.menu li:hover {
+    border-bottom: 4px solid rgb(253, 0, 241);
+    color: white;
+}
+
+
+
+@keyframes onlyli {
+    0% {
+        color: rgb(11, 218, 255);
+    }
+
+    25% {
+        color: rgb(253, 0, 241);
+    }
+
+    50% {
+        color: rgb(148, 241, 7);
+    }
+
+    65% {
+        color: rgb(226, 27, 27);
+    }
+
+    75% {
+        color: rgb(243, 239, 10);
+    }
+
+    90% {
+        color: rgb(130, 10, 243);
+    }
+
+    100% {
+        color: rgb(11, 218, 255);
+    }
+}
+
+
+
+button a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+a ion-icon{
+   text-align: center;
+    font-size:18px;
+
+}
+
+
+
+
+
+.container_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20px;
+    gap: 20px;
+    animation: container_section_animation 16s linear infinite;
+}
+
+.carousel-area {
+    background-color: black;
+    
+}
+
+.container_section h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    animation-name: onlyli;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes container_section_animation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+}
+
+
+.fliperama_buy{
+    height: 1220px;
+    background-image: url('https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2016/05/newretroarcade-steamvr-htc-vive-6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer_descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 62px;
+    background-color: black;
+    color: white;
+    
+}
+
+
+.fliperama_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height:1220px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.fliperama_area .flip_area{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+    animation-name: onlyli;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.pagamento{
+    background-color: white;
+    height: 650px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.pagamento_title{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    width: 90%;
+}
+.line{
+    height: 8px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    
+}
+
+.line2{
+    height: 8px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.valor_total2{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.valor_total3{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pagamento_title ion-icon{
+    font-size: 25px;
+}
+
+
+.pagamento_title h3{
+    font-size: 25px;
+    
+}
+
+.pagamento .pagamento_layout{
+    height: 520px;
+    width: 630px;
+
+    
+}
+
+
+.cartoes{
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.pix{
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.boleto{
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.flip_area{
+    margin-bottom: 20px;
+}
+
+
+
+
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: all 2s;
+}
+
+.cartoes_options{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.mastercard{
+    width: 50px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+    
+}
+
+.visa{
+    height: 40px;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hipercard{
+    height: 40px;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.elo{
+    height: 40px;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.icon_ponto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+
+.cartoes_options2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+   
+}
+.pix_modo{
+    width: 94px; 
+}
+
+
+
+.campo_radio{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #CCC;
+}
+
+.campo_radio2{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #CCC;
+}
+
+.campo_radio3{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #CCC;
+}
+
+input[type='radio']{
+    width: 17px;
+}
+
+
+.modo_boleto{
+    width: 74px;
+    padding-left: 20px;
+}
+
+.cartoes_options3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.end_shopping{
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.end_shopping2{
+    color: white;
+    padding: 20px;
+    width: 225px;
+    font-size: 20px;
+    border: 2px solid rgb(3, 131, 10);
+    background-color: rgb(4, 168, 31);
+    cursor: pointer;
+}
+
+.end_shopping3{
+    color: white;
+    padding: 16px;
+    width: 225px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(3, 131, 10);
+    background-color: rgb(4, 168, 31);
+}
+
+.back_pag{
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back_pag2{
+    color: white;
+    padding: 10px;
+    width: 280px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back_pag3{
+    color: white;
+    padding: 10px;
+    width: 290px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.end_shopping ion-icon{
+    padding-right: 10px;
+
+}
+.end_shopping2 ion-icon{
+    padding-right: 10px;
+
+}
+.end_shopping3 ion-icon{
+    padding-right: 10px;
+
+}
+
+.button_area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.button_area2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.button_area3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+
+.security{
+    width: 300px;
+    
+}
+
+.campo_security{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagamento2{
+    background-color: white;
+    height: 690px;
+    width: 700px;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagamento2 .pagamento_layout2{
+    height: 520px;
+    width: 630px;
+
+    
+}
+
+.security2{
+    width: 100px;
+    
+}
+
+.campo_security2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.pagamento3{
+    background-color: white;
+    height: 690px;
+    width: 600px;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagamento3 .pagamento_layout3{
+    height: 520px;
+    width: 630px;
+
+    
+}
+
+.security3{
+    width: 100px;
+    
+}
+
+.campo_security3{
+    display: flex;
+    justify-content: center;
+    
+}
+.img_pix{
+    width: 240px;
+}
+.pix_imagens{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*dados da pessoa*/
+
+
+.area_dados{
+    padding: 10px;
+}
+.dados_email{
+    width: 300px;
+    padding-left: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.dados_name{
+    width: 300px;
+    padding-left: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.adress{
+    width: 300px;
+    padding-left: 10px;
+    height: 30px;
+}
+.adress_number{
+    width: 80px;
+    padding-left: 10px;
+    height: 30px;
+    
+}
+.adress_number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.complement{
+    width: 140px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+
+.cartao_dado::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.cartao_dado{
+    width: 200px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.name_cartao{
+    width: 200px;
+    padding-left: 10px;
+    height: 30px;
+    margin-top:10px;
+}
+
+.dados_cartoes{
+    padding: 10px;
+}
+
+
+.validade_card{
+    margin-top: 10px;
+    width: 100px;
+}
+.month_card{
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.codigo_card{
+
+    margin-top: 10px;
+    height: 30px;;
+    width: 100px; 
+}
+.cod_security{
+    width: 130px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.cod_security::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.area_code{
+    display: flex;
+    gap: 20px;
+}
+
+.frente_card{
+    width: 30px;
+}
+
+.card_front{
+    display: flex;
+    gap: 10px;
+}
+
+.area_card{
+    margin-top: 10px;
+}
+
+.selecao_option{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+.verso_card{
+    height: 30px;
+    width: 20px;
+}
+
+.card_vers{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+
+
+@media (max-width:320px){
+    .banner_logo{
+        font-size: 20px;
+    }
+
+    .pagamento{
+        height: 600px;
+        width: 320px;
+    }
+    .pagamento2{
+        width: 320px;
+        height: 845px;
+    }
+
+    .pagamento3{
+        width: 320px;
+        height: 845px;
+    }
+
+    .complement{
+        margin-top: 10px;
+    }
+    .verso_card{
+        display: none;
+    }
+
+    .end_shopping2{
+        width: 240px;
+        height: 60px;
+    }
+
+    .area_dados{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .area_code{
+        display: block;
+    }
+   
+    .pagamentos_options2{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .pagamento_layout2{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .security2{
+        height: 40px;
+    }
+    .options{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartoes_options{
+        width: 210px;
+    }
+    .mastercard{
+        width: 20px;
+        height: 20px;
+    }
+
+    .visa{
+        width: 20px;
+        height: 20px;
+    }
+    .hipercard{
+        width: 20px;
+        height: 20px;
+    }
+    .elo{
+        width: 20px;
+        height: 20px;
+    }
+    .icon_ponto{
+        width: 20px;
+        height: 20px;
+    }
+
+    .boleto{
+        width: 290px;
+    }
+    .pix{
+        width: 290px;
+    }
+
+    .end_shopping{
+        width: 230px;
+    }
+
+    .security{
+        width: 200px;
+    }
+  
+    
+    
+}
+
+
+
+
+@media (min-width:375px) and (max-width:425px){
+    .banner_logo{
+        font-size: 20px;
+    }
+    .pagamento3{
+        width: 370px;
+        height: 845px;
+    }
+
+    .pagamento{
+        height: 500px;
+        width: 380px;
+    }
+    .options{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartoes_options{
+        width: 250px;
+    }
+    .mastercard{
+        width: 40px;
+        height: 40px;
+    }
+
+    .visa{
+        width: 40px;
+        height: 40px;
+    }
+    .hipercard{
+        width: 40px;
+        height: 40px;
+    }
+    .elo{
+        width: 40px;
+        height: 40px;
+    }
+    .icon_ponto{
+        width: 40px;
+        height: 40px;
+    }
+
+    .boleto{
+        width: 330px;
+    }
+    .pix{
+        width: 330px;
+    }
+
+    .end_shopping{
+        width: 230px;
+    }
+
+    .security{
+        width: 200px;
+    }
+
+
+
+    .banner_logo{
+        font-size: 20px;
+    }
+
+    .pagamento{
+        height: 600px;
+        width: 320px;
+    }
+    .pagamento2{
+        width: 360px;
+        height: 845px;
+    }
+
+    .pagamento3{
+        width: 320px;
+        height: 845px;
+    }
+
+    .complement{
+        margin-top: 10px;
+    }
+    .verso_card{
+        display: none;
+    }
+
+    .end_shopping2{
+        width: 240px;
+        height: 60px;
+    }
+
+    .area_dados{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .area_code{
+        display: block;
+    }
+   
+    .pagamentos_options2{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .pagamento_layout2{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .security2{
+        height: 40px;
+    }
+    .options{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    
+    
+}
