@@ -849,7 +849,7 @@ input[type='radio']{
 
 
 
-@media (max-width:320px){
+@media (max-width:390px){
     *{
         overflow-x: hidden;
     }
@@ -858,9 +858,11 @@ input[type='radio']{
 
      .fliperama_buy{
         height: 753px;
+         display:block;
     }
     .fliperama_area{
         height:723px;
+        display:block;
     }
     .flip_area{
       display: none;
@@ -875,6 +877,7 @@ input[type='radio']{
     .pagamento{
         height: 600px;
         width: 320px;
+        margin-left: 10%;
     }
     .pagamento2{
         width: 320px;
