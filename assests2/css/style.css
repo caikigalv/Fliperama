@@ -852,9 +852,13 @@ input[type='radio']{
 @media (max-width:450px) {
     * {
         overflow-x: hidden;
+        overflow-y: hidden;
 
     }
 
+    .line2{
+        margin-bottom: 0;
+    }
 
     .fliperama_buy {
         height: 723px;
@@ -976,16 +980,15 @@ input[type='radio']{
     }
 
     .pagamento2 {
-        overflow-x: visible;
-        overflow-y: visible;
         display: flex;
-        height: 800px;
+        height: 795px;
         width: 100%;
     }
 
     .pagamento3 {
-        width: 320px;
-        height: 845px;
+        display: flex;
+        height: 795px;
+        width: 100%;
     }
 
     .complement {
@@ -1021,9 +1024,6 @@ input[type='radio']{
     .pagamento_layout2 {
         display: flex;
         justify-content: center;
-        height: 100%;
-        
-
     }
 
     .pagamento_layout {
@@ -1031,6 +1031,15 @@ input[type='radio']{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+
+    .pagamento_layout3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        
     }
 
     .security2 {
