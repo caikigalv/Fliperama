@@ -852,12 +852,12 @@ input[type='radio']{
 @media (max-width:450px){
     *{
         overflow-x: hidden;
+        overflow-y: hidden;
     }
 
 
     .fliperama_buy{
         height: 723px;
-        width: 100%;
         display: block;
        
         
@@ -865,7 +865,6 @@ input[type='radio']{
     .fliperama_area{
         display: block;
         height:725px;
-        width: 100%;
         
     }
     .flip_area{
@@ -881,7 +880,8 @@ input[type='radio']{
     }
 
     .pagamento.hidden{
-        display: block;
+       
+        display: flex;
         height: 800px;
         width: 100vw;
         border-radius: none;
@@ -946,8 +946,7 @@ input[type='radio']{
     }
 
     .pagamento{
-        height: 600px;
-        width: 320px;
+        height: 600px;     
     }
     .pagamento2{
         width: 360px;
@@ -991,6 +990,13 @@ input[type='radio']{
         display: flex;
         justify-content: center;
         margin-top: 80px;
+    }
+
+    .pagamento_layout{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .security2{
