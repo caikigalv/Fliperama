@@ -850,6 +850,9 @@ input[type='radio']{
 
 
 @media (max-width:320px){
+    *{
+        overflow-x: hidden;
+    }
     .banner_logo{
         font-size: 20px;
     }
