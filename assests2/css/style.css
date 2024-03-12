@@ -852,7 +852,7 @@ input[type='radio']{
 @media (max-width:450px) {
     * {
         overflow-x: hidden;
-        overflow-y: hidden;
+        
 
     }
 
@@ -980,13 +980,12 @@ input[type='radio']{
     }
 
     .pagamento2 {
-        display: flex;
+        
         height: 795px;
         width: 100%;
     }
 
     .pagamento3 {
-        display: flex;
         height: 795px;
         width: 100%;
     }
@@ -1061,6 +1060,7 @@ input[type='radio']{
         margin-right: 10%;
         margin-top: 30%;
         height: 800px;
+        overflow-y: hidden;
         position: absolute;
     }
 
