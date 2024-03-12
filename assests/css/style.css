@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: helvetica;
-    overflow-x:hidden;
 }
 
 body{
-    overflow-x: hidden;
-    z-index: 1;
+    overflow-x:hidden;
 }
+
 
 
 .hidden {
@@ -56,10 +55,7 @@ body{
 
 
 
-body {
-    overflow-x: hidden;
 
-}
 
 header {
     position: fixed;
