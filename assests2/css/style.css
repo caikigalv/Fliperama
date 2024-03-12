@@ -853,6 +853,21 @@ input[type='radio']{
     *{
         overflow-x: hidden;
     }
+
+
+
+     .fliperama_buy{
+        height: 753px;
+    }
+    .fliperama_area{
+        height:723px;
+    }
+    .flip_area{
+      display: none;
+
+    }
+
+    
     .banner_logo{
         font-size: 20px;
     }
