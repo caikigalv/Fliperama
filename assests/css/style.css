@@ -5,7 +5,10 @@
     font-family: helvetica;
 }
 
-
+body{
+    overflow-x: hidden;
+    z-index: 1;
+}
 
 
 .hidden {
