@@ -849,141 +849,28 @@ input[type='radio']{
 
 
 
-@media (max-width:390px){
+@media (max-width:450px){
     *{
         overflow-x: hidden;
     }
 
 
-
-     .fliperama_buy{
-        height: 753px;
-         display:block;
+    .fliperama_buy{
+        height: 723px;
+        width: 100%;
+        display: block;
+       
+        
     }
     .fliperama_area{
-        height:723px;
-        display:block;
+        display: block;
+        height:725px;
+        width: 100%;
+        
     }
     .flip_area{
       display: none;
 
-    }
-
-    
-    .banner_logo{
-        font-size: 20px;
-    }
-
-    .pagamento{
-        height: 600px;
-        width: 320px;
-        margin-left: 10%;
-    }
-    .pagamento2{
-        width: 320px;
-        height: 845px;
-    }
-
-    .pagamento3{
-        width: 320px;
-        height: 845px;
-    }
-
-    .complement{
-        margin-top: 10px;
-    }
-    .verso_card{
-        display: none;
-    }
-
-    .end_shopping2{
-        width: 240px;
-        height: 60px;
-    }
-
-    .area_dados{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .area_code{
-        display: block;
-    }
-   
-    .pagamentos_options2{
-        width: 320px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-    .pagamento_layout2{
-        display: flex;
-        justify-content: center;
-        margin-top: 80px;
-    }
-
-    .security2{
-        height: 40px;
-    }
-    .options{
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cartoes_options{
-        width: 210px;
-    }
-    .mastercard{
-        width: 20px;
-        height: 20px;
-    }
-
-    .visa{
-        width: 20px;
-        height: 20px;
-    }
-    .hipercard{
-        width: 20px;
-        height: 20px;
-    }
-    .elo{
-        width: 20px;
-        height: 20px;
-    }
-    .icon_ponto{
-        width: 20px;
-        height: 20px;
-    }
-
-    .boleto{
-        width: 290px;
-    }
-    .pix{
-        width: 290px;
-    }
-
-    .end_shopping{
-        width: 230px;
-    }
-
-    .security{
-        width: 200px;
-    }
-  
-    
-    
-}
-
-
-
-
-@media (min-width:375px) and (max-width:425px){
-    *{
-        overflow-x: hidden;
     }
     .banner_logo{
         font-size: 20px;
@@ -993,10 +880,17 @@ input[type='radio']{
         height: 845px;
     }
 
-    .pagamento{
-        height: 500px;
-        width: 380px;
+    .pagamento.hidden{
+        display: block;
+        height: 800px;
+        width: 100vw;
+        border-radius: none;
     }
+
+    .pagamento_title{
+        margin-top: -100px;
+    }
+
     .options{
         width:100%;
         display: flex;
