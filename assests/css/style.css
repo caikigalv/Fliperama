@@ -191,6 +191,7 @@ li a {
 }
 
 .menu {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1387,7 +1388,8 @@ button a {
         flex-direction: column;
         background: rgba(0, 0, 0, 0.9);
         height: 400px;
-
+        width: 100%;
+        position: fixed;
         text-align: right;
 
     }
