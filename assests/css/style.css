@@ -1372,6 +1372,10 @@ button a {
         overflow-x:hidden;
     }
 
+    .container_section{
+        display:none;
+    }
+
     .logo_menu {
         display: flex;
         justify-content: center;
@@ -1646,6 +1650,10 @@ button a {
 @media (min-width:430px) and (max-width:768px) {
     *{
         overflow-x:hiddem;
+    }
+
+    .container_section{
+        display:none;
     }
 
     .banner_logo_menu{
@@ -1941,6 +1949,10 @@ button a {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .container_section{
+        display:none;
     }
 
     .section_fliperama {
