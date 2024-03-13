@@ -1368,7 +1368,9 @@ button a {
 
 
 @media (max-width:450px) {
-
+    *{
+        overflow:hidden;
+    }
 
     .logo_menu {
         display: flex;
