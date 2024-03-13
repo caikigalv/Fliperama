@@ -1369,7 +1369,9 @@ button a {
 
 @media (max-width:450px) {
 
-    
+    .container_section{
+       overflow-x: hidden;
+    }
 
     .logo_menu {
         display: flex;
@@ -1643,7 +1645,9 @@ button a {
 
 
 @media (min-width:430px) and (max-width:768px) {
-     
+     .container_section{
+       overflow-x: hidden;
+    }
     
 
     .banner_logo_menu{
