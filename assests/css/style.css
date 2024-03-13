@@ -1370,7 +1370,7 @@ button a {
 @media (max-width:450px) {
 
     .container_section{
-       overflow-x: hidden;
+       display:none;
     }
 
     .logo_menu {
@@ -1646,7 +1646,7 @@ button a {
 
 @media (min-width:430px) and (max-width:768px) {
      .container_section{
-       overflow-x: hidden;
+       display:none;
     }
     
 
